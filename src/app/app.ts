@@ -8,4 +8,6 @@ import { Component, signal } from '@angular/core';
 })
 export class App {
   protected readonly title = signal('my-app');
+  owner_name='Ramakanth'
+  page_title='Welcome to My Page'
 }

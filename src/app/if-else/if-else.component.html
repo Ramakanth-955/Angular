@@ -1,0 +1,24 @@
+<h1>if-else</h1>
+
+<div class="center">
+    <img class="imgStyle" src="/assets/images/Puttaparthi.webp" alt="">
+</div>
+
+<p>Puttaparthi is a major pilgrimage town and the district headquarters of the Sri Sathya Sai district in Andhra Pradesh, India. It is globally renowned as the birthplace and home of the spiritual leader Sathya Sai Baba. </p>
+
+
+@if(showMore){
+    <ul>
+        <li>Prasanthi Nilayam: The "Abode of Highest Peace" is the main ashram where Sathya Sai Baba resided. It includes the Sai Kulwant Hall, where daily spiritual activities and the Samadhi (final resting place) of Sai Baba are located.</li>
+        <li>Educational & Medical Hub: The town hosts the Sri Sathya Sai Institute of Higher Learning and world-class healthcare facilities like the Sri Sathya Sai Institute of Higher Medical Sciences, which provides free specialist treatment.</li>
+        <li>Historical Significance: Originally a small village called Gollapalli ("village of cowherds"), its name changed to Puttaparthi, meaning "township that sprang from anthills".</li>
+    </ul>
+}
+
+@if(showButton){
+    <button (click)="moreData()">Read more</button>
+}
+@else{
+    <button (click)="readLess()">Read less</button>
+}
+

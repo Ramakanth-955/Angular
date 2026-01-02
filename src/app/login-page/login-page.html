@@ -1,0 +1,13 @@
+<h1>Login Page</h1>
+
+
+
+<div class="loginInputs">
+    <input #username type="text" placeholder="username">
+    <input #password type="password" placeholder="Password">
+</div>
+<br> <br>
+<div style="margin-left: 125px;">
+<button (click)="onLogin(username.value , password.value)">Login</button>
+</div>
+

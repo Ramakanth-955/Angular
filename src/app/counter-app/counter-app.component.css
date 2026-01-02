@@ -1,0 +1,39 @@
+.buttonsAlign{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+h2{
+    text-align: center;
+}
+
+.incrementButton{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 20px 29px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.resetButton{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.decrementButton{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 20px 29px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}

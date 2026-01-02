@@ -1,0 +1,18 @@
+<h2>KeyBoard events</h2>
+<br>
+<input #box1 type="text" placeholder="keyup.enter" (keyup.enter)="getdata(box1.value)">
+<br>
+<br>
+<input #box2 type="text" placeholder="keyup" (keyup)="getdata(box2.value)">
+<br>
+<br>
+<input #box3 type="text" placeholder="keydown" (keydown)="getdata(box3.value)">
+<br>
+<br>
+<div (mouseover)="onHover()">Hover me</div>
+<br>
+<br>
+<div (mouseleave)="onLeave()">Leave</div>
+<br>
+<br>
+<button (click)="onClick(box1.value)">get keyup value</button>
